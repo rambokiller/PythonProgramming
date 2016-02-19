@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #Program that simulates Fibonacci sequence 
-#Looping Technique Method
+#Recursion Technique Method
 
 def fib(n):
 		if n<=1:
