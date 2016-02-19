@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-#Program that simulates Fibonacci sequence
-n = eval(input("Enter number of terms of FS to print: ")
-accumulator = 1
+#Program that simulates Fibonacci sequence 
+#Looping Technique Method
 
-for i in range(1,n+1):
-	if i==1 || i==2:
-		print(accumulator, end=" ")
+def fib(n):
+		if n<=1:
+			return 1
+		return fib(n-1)+fib(n-2)
 
-	
+n = eval(input("What term: "))
+print(fib(n))
